@@ -1,0 +1,219 @@
+.login-navigation > li:not(:hover) {
+	background: transparent none repeat scroll 0 0 !important;
+    border-radius: 50px !important;
+    color: #888;
+    font-size: 12px !important;
+    padding: 10px !important;
+}
+
+.login-navigation > li:hover {
+  font-size: 12px !important;
+  border-radius: 50px!important;
+  padding:10px!important;
+  transition: background-color 0.5s ease 0s;
+}
+.lightbox-item.p-item {
+    display: inline-block;
+    padding: 10px;
+}
+.card-deck.files.files img {
+    height: 200px;
+
+}
+.pull-right.search {
+    padding: 14px;
+    position: relative;
+}
+.float{
+		display:none;
+	}
+
+	.card.card-preloader {
+		left: 5%;
+		margin: auto;
+		position: fixed;
+		top: 25%;
+		width: 90%;
+		z-index: 999;
+	}
+	.card-body.card-padding > h2 {
+		bottom: 13px;
+		position: relative;
+		display: inline-block;
+		width: 75%;
+	}
+	.card-preloader{
+		display:none;
+	}
+
+	.modal-preloader .modal-header {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+.modal-body .item {
+    float: left;
+    padding: 0 10px;
+}
+
+.phone .thumbnail{
+	padding:0px;
+}
+.detail-category .checkbox.m-b-15 {
+    float: right;
+    margin: 0 !important;
+    position: relative;
+    right: 15%;
+	top: 11px;
+}
+.students .detail-category a.btn {
+    margin: 0 5px;
+}
+.students .checkbox {
+    position: relative;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 2px;
+}
+table .checkbox {
+    margin: 0px;
+}
+.float-add-item {
+    float: right;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+body{
+	overflow: auto;
+}
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th {
+    vertical-align: middle;
+}
+@media(max-width:500px){
+
+	.float .checkbox .input-helper::after{
+		top: 8px;
+	}
+	.mobile-hide{
+		display:none;
+	}
+.phone{
+		padding:0;
+	}
+	.modal-body .item {
+		width: 100% !important;
+	}
+	.item img {
+		height: 100% !important;
+		width: 100% !important;
+	}
+	.detail-category .card {
+		box-shadow: none;
+		z-index: 0;
+
+	}
+	 .modal-backdrop.in{
+		z-index: -1;
+
+	}
+	.detail-category .row {
+		background: #fff;
+	}
+	.detail-category .card-body.card-padding,.detail-category .card ,.detail-category .card-deck{
+
+		background:#EDECEC;
+	}
+
+	.pull-right.search {
+		left: 20px;
+		padding: 0;
+		position: relative;
+		top: 0;
+	}
+	.pull-right ~  h1{
+		font-size:20px;
+	}
+	.modal-preloader .modal-title > small {
+		display: none;
+	}
+
+	.relative{
+		display:none;
+	}
+	.float{
+		display:block;
+	}
+	#footer{
+		display:none;
+	}
+
+
+	.float {
+		border-radius: 0  ;
+		background: black none repeat scroll 0 0 ;
+		bottom: 0 ;
+		position: fixed ;
+		width: 100% ;
+	}
+	.float .col-lg-12 {
+		border-radius: 0  ;
+		padding: 0 ;
+	}
+	.float .panel-default {
+		background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0  ;
+		border-radius: 0 ;
+		margin: 0 ;
+	}
+	.float .panel-body {
+		background: #8888 none repeat scroll 0 0 ;
+	}
+	.float .panel-body {
+		background: #8888 none repeat scroll 0 0 ;
+		padding: 5px 0 ;
+		z-index: 9999 ;
+	}
+	.float .panel-body {
+		padding: 15px 5px ;
+	}
+	.float .col-md-4.col-sm-12.col-lg-3 {
+		padding: 0 ;
+	}
+	.float .form-actions {
+		text-align: center ;
+		width: 100% ;
+	}
+
+	.float .checkbox .input-helper::before {
+		top: 8px;
+	}
+
+	.float .checkbox.checkbox-inline.m-r-20 {
+		color: #fff ;
+		margin: 0  ;
+		padding: 0 ;
+		position: relative ;
+		width: 100% ;
+	}
+	.float .btn, .float .checkbox {
+		padding: 8px ;
+		width: 33% ;
+	}
+	.float .btn, .float .checkbox {
+		padding: 8px ;
+		width: 33% ;
+	}
+
+}
+@media(max-width:700px){
+#btn-google, #btn-facebook, .span-1,.btn-facebook,.btn-google {
+    display: inline-block;
+    margin: auto;
+    position:relative;
+    width: 90%;
+}
+button#btn-google,button#btn-facebook{
+	width: 100%;
+}
+}

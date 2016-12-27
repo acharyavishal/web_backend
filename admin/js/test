@@ -1,0 +1,9 @@
+
+<script src="jquery.min.js" />
+function gt(){
+    console.log(window)
+
+
+}
+gt();
+
